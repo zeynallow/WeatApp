@@ -1,5 +1,7 @@
 # WeatApp
+Weather
 
+* Using MetaWeather API with custom api.php
 
 ## Features
 
@@ -8,7 +10,16 @@
 * Babel 7
 * Hot Module Replacement
 
-## Installation
 
-* npm start
-* visit `http://localhost:8080/`
+## Installation
+1. Install app dependencies
+```
+npm install
+```
+2. Start the script
+```
+npm start
+```
+
+## MetaWeather official site:
+https://www.metaweather.com
