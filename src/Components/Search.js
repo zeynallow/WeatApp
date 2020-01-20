@@ -25,7 +25,7 @@ class Search extends Component {
 
     this.setState({ keyword: params.keyword});
 
-    Axios(`https://blogramo.com/api.php?command=search&keyword=${params.keyword}`,{
+    Axios(`http://localhost:2000/api.php?command=search&keyword=${params.keyword}`,{
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'

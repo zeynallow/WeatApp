@@ -38,7 +38,7 @@ class Weather extends Component {
 
     let woeid = this.props.woeid;
 
-    Axios('https://blogramo.com/api.php?command=location&woeid='+ woeid,{
+    Axios('http://localhost:2000/api.php?command=location&woeid='+ woeid,{
       headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
